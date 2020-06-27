@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             public void onFinish() {
                 gameactive=false;
                 playagainbutton.setVisibility(View.VISIBLE);
+                timetext.setText(Integer.toString(0)+"s");
                 wrongtext.setText("Done");
             }
         }.start();
