@@ -1,0 +1,2 @@
+rootProject.name='Brain Game'
+include ':app'
